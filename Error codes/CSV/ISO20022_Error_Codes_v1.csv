@@ -1,0 +1,79 @@
+﻿Code;Description;Name
+AB01;Clearing process aborted due to timeout.;Clearing process aborted due to timeout.
+AB02;Clearing process aborted due to a fatal error.;Clearing process aborted due to a fatal error.
+AB03;Settlement aborted due to timeout.;Settlement aborted due to timeout.
+AB04;Settlement process aborted due to a fatal error.;Settlement process aborted due to a fatal error.
+AB05;Transaction stopped due to timeout at the Creditor Agent.;Transaction stopped due to timeout at the Creditor Agent.
+AB06;Transaction stopped due to timeout at the Instructed Agent.;Transaction stopped due to timeout at the Instructed Agent.
+AB07;Agent of message is not online.;Agent of message is not online.
+AB08;Creditor Agent is not online.;Creditor Agent is not online.
+AB09;Transaction stopped due to error at the Creditor Agent.;Transaction stopped due to error at the Creditor Agent.
+AB10;Transaction stopped due to error at the Instructed Agent.;Transaction stopped due to error at the Instructed Agent.
+AB11;Transaction stopped due to timeout at the Debtor Agent.;Transaction stopped due to timeout at the Debtor Agent.
+AC01;Creditor account missing;Creditor account missing. The account number provided is inv
+AC02;Debtor account number invalid or missing.;Debtor account number invalid or missing.
+AC03;Creditor account number invalid or missing.;Creditor account number invalid or missing.
+AC04;Account number specified has been closed on the bank of account’s books.;Account number specified has been closed on the bank of acco
+AC05;Debtor account number closed.;Debtor account number closed.
+AC06;Blocked for payment;Blocked for payment
+AC07;Creditor account is blocked from receiving transactions;Creditor account is blocked from receiving transactions
+AC08;Branch code is invalid or missing.;Branch code is invalid or missing.
+AC09;Account currency is invalid or missing.;Account currency is invalid or missing.
+AC10;Debtor account currency is invalid or missing.;Debtor account currency is invalid or missing.
+AC11;Creditor account currency is invalid or missing.;Creditor account currency is invalid or missing.
+AC12;Account type missing or invalid.;Account type missing or invalid.
+AG01;Transaction forbidden on this type of account.;Transaction forbidden on this type of account.
+AG02;Bank Operation code specified in the message is not valid for receiver.;Bank Operation code specified in the message is not valid fo
+AG03;The beneficiary requires correct KID;The beneficiary requires correct KID
+AG04;Agent country code is missing or invalid.;Agent country code is missing or invalid.
+AG05;Debtor agent country code is missing or invalid.;Debtor agent country code is missing or invalid.
+AG06;Invalid country code;Invalid country code
+AG07;Debtor account cannot be debited for a generic reason.;Debtor account cannot be debited for a generic reason.
+AG08;Not authorized (Account, Agreement);Not authorized (Account, Agreement)
+AG09;Original payment never received.;Original payment never received.
+AG10;Agent of message is suspended from the Real Time Payment system.;Agent of message is suspended from the Real Time Payment sys
+AM01;Payment amount less than 0;Payment amount less than 0
+AM02;Specific transaction/message amount is greater than allowed maximum.;Specific transaction/message amount is greater than allowed
+AM03;Information on exchange rates not found;Information on exchange rates not found
+AM04;Amount of funds available to cover specified message amount is insufficient.;Amount of funds available to cover specified message amount
+AM05;Duplication.;Duplication.
+AM06;Specified transaction amount is less than agreed minimum.;Specified transaction amount is less than agreed minimum.
+AM07;Amount specified in message has been blocked by regulatory authorities.;Amount specified in message has been blocked by regulatory a
+AM09;Amount received is not the amount agreed or expected.;Amount received is not the amount agreed or expected.
+AM11;Invalid transfer currency;Invalid transfer currency
+AM14;Exceeding period or transaction amount;Exceeding period or transaction amount
+BE04;The creditor's postal code or postal address is missing;The creditor's postal code or postal address is missing
+BE07;The specification of the recipient's address required for payment is missing/incorrect;The specification of the recipient's address required for pa
+BE11;Creditor's country code is missing;Creditor's country code is missing
+BE22;Creditor name missing;Creditor name missing
+CH03;The desired driving date exceeds the maximum number of months ahead;The desired driving date exceeds the maximum number of month
+CH20;The number of decimal places is exceeded;The number of decimal places is exceeded
+DS01;Signature file was sent to the bank but the corresponding original file has not been sent yet.;Signature file was sent to the bank but the corresponding or
+DU02;Payment identification has duplicates;Payment identification has duplicates
+DUPL;Not a unique payment;Not a unique payment
+FF01;File Format incomplete or invalid.;File Format incomplete or invalid.
+FF02;Syntax error reason is provided as narrative information in the additional reason information.;Syntax error reason is provided as narrative information in
+FF03;Payment Type Information is missing or invalid.;Payment Type Information is missing or invalid.
+G000;In an FI To FI Customer Credit Transfer;In an FI To FI Customer Credit Transfer
+G001;In an FI To FI Customer Credit Transfer;In an FI To FI Customer Credit Transfer
+K0045;To-account' cannot accept incoming payments;AC07
+K0118;Payment deleted by customer;NARR
+K0224;Information to valuta register must be entered;Information to valuta register must be entered
+K0242;AUTH2 MISS.;NARR
+K0308;The beneficiary requires correct KID;AG03
+K0336;Dispatch date is changed;DT06
+K0517;The KID reference is incorrect.;NARR
+MD01;No Mandate.;No Mandate.
+MD02;Mandate related information data required by the scheme is missing.;Mandate related information data required by the scheme is m
+MD05;Creditor or creditor's agent should not have collected the direct debit.;Creditor or creditor's agent should not have collected the d
+NARR;Narrative;Narrative
+RC01;Bank identifier code specified in the message has an incorrect format.;Bank identifier code specified in the message has an incorre
+RC02;Bank identifier is invalid or missing.;Bank identifier is invalid or missing.
+RC03;Debtor bank identifier is invalid or missing.;Debtor bank identifier is invalid or missing.
+RC04;Creditor agent national ID required/unknown;Creditor agent national ID required/unknown
+RC07;Incorrect BIC identification on creditor agent/;Creditor agent national ID required/unknown
+RR01;Missing Debtor account or identification;Missing Debtor account or identification
+RR02;Missing Debtor's name or address;Missing Debtor's name or address
+RR03;Creditor name or address missing;Creditor name or address missing
+RR04;Regulatory Reason;Regulatory Reason
+RR09;Structured creditor reference invalid or missing;Structured creditor reference invalid or missing
